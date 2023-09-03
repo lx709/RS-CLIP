@@ -14,7 +14,7 @@
 Following [CLIP](https://github.com/openai/CLIP) to install required packages
 
 ### Reproduce
-refer to '''run_ucm.sh''' for experiments on the UCM dataest.
+refer to ```run_ucm.sh``` for experiments on the UCM dataest.
 
 ## Acknowledgement
 
