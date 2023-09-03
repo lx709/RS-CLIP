@@ -242,7 +242,7 @@ def run_training(args):
             assert season in ['sprint', 'summer', 'fall', 'winter']
         
         train_dataset = SEN12_Pseudo_Dataset(data_root, transform=imgTransform, 
-                     txt_path='train_{}_{}shots.txt'.format(args.season, args.n_shots))
+                     txt_path='train_{}_{}shots.txt'.format(season, args.n_shots))
         
         test_dataset = SEN12MS(data_root, list_dir, imgTransform, season=season,
                      label_type="single_label", threshold=0.1, subset="test", 
