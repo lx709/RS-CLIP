@@ -22,11 +22,14 @@ refer to ```run_ucm.sh``` for experiments on the UCM dataest.
 
 If you're using RS-CLIP in your research or applications, please cite using this BibTeX:
 ```bibtex
-@article{zhu2023minigpt,
-  title={RS-CLIP: Zero Shot Remote Sensing Scene Classification via
-Contrastive Vision-Language Supervision},
-  author={Xiang Li, Congcong Wen, Yuan Hu, Nan Zhou},
-  year={2023}
+@article{li2023rs,
+  title={RS-CLIP: Zero shot remote sensing scene classification via contrastive vision-language supervision},
+  author={Li, Xiang and Wen, Congcong and Hu, Yuan and Zhou, Nan},
+  journal={International Journal of Applied Earth Observation and Geoinformation},
+  volume={124},
+  pages={103497},
+  year={2023},
+  publisher={Elsevier}
 }
 ```
 
